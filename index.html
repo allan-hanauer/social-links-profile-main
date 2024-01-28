@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="./src/output.css" rel="stylesheet" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Social links profile</title>
+  </head>
+  <body
+    class="w-full h-[100vh] bg-neutral_4 box-border flex flex-col justify-between items-center font-inter"
+  >
+    <main
+      class="flex flex-col items-center justify-between text-neutral_1 rounded-2xl	 bg-neutral_3 mt-[173px] w-[387px] h-[613px]"
+    >
+    <div class="flex flex-col items-center mt-[41px]">
+      <img
+        src="./assets/images/avatar-jessica.jpeg"
+        class="object-contain w-[90px] h-[90px] rounded-full"
+        alt="avatar-jessica"
+      />
+        <h1 class="text-neutral_1 mt-[26px] text-2xl font-semibold">Jessica Randall</h1>
+        <p class="text-sm font-bold text-primary">
+          London, United Kingdom
+        </p>
+        <p class="text-sm font-normal mt-[28px]">"Front-end developer and avid reader."</p>
+      </div>
+      <ul class="flex flex-col list-none mb-[41px] items-center gap-[15px]">
+        <li class="w-[304px] h-[46px] hover:bg-primary hover:text-neutral_4 transition-all flex items-center justify-center rounded-lg text-sm font-extrabold bg-neutral_2">GitHub</li>
+        <li class="w-[304px] h-[46px] hover:bg-primary hover:text-neutral_4 transition-al flex items-center justify-center rounded-lg text-sm font-extrabold bg-neutral_2">Frontend Mentor</li>
+        <li class="w-[304px] h-[46px] hover:bg-primary hover:text-neutral_4 transition-al flex items-center justify-center rounded-lg text-sm font-extrabold bg-neutral_2">LinkedIn</li>
+        <li class="w-[304px] h-[46px] hover:bg-primary hover:text-neutral_4 transition-al flex items-center justify-center rounded-lg text-sm font-extrabold bg-neutral_2">Twitter</li>
+        <li class="w-[304px] h-[46px] hover:bg-primary hover:text-neutral_4 transition-al flex items-center justify-center rounded-lg text-sm font-extrabold bg-neutral_2">Instagram</li>
+      </ul>
+    </main>
+    <footer>
+      <p class="text-neutral_1">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+        >. Coded by <a class="text-primary" href="#">Allan Hanauer</a>.
+      </p>
+    </footer>
+  </body>
 </html>
