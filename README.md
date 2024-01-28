@@ -1,5 +1,5 @@
 
-![Design preview for the Social links profile coding challenge](./assets/design/desktop-preview.jpg)
+![Design preview for the Social links profile coding challenge](./design/desktop-preview.jpg)
 ## Social Links Profile
 
 Welcome to the Social Links Profile repository! This project is a small project created by a developer who is learning to use Tailwind CSS. It aims to showcase social media profile links in a simple and stylish manner.
